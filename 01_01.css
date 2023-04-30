@@ -1,0 +1,167 @@
+body{
+    margin: 0;
+    line-height: 1.8em;
+    letter-spacing: 1px;
+    background-color:transparent;
+    scroll-behavior: smooth;
+}
+nav{
+    background-color: blue;
+    line-height: 10px;
+    width: 100%;
+    position: sticky;
+    top: 0;/*its important for position sticky to work*/
+}
+.logo{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 18;
+    font-weight: 150;
+    color: red;
+    letter-spacing: 2px;
+    text-decoration: solid;
+    font-weight: bold;
+    padding: 4px;
+    cursor: pointer;
+    position: relative;
+    width: 150px;
+    line-height: 40px;    
+    top: 20px;
+    left: 10px;
+    border: solid 2px rgba(200, 0, 0, .3);
+    border-radius:10px ; 
+}
+span{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: white;
+}
+ul li{
+    display: inline;
+    background-color: aliceblue;
+    color: rgba(0, 0, 200, .5);
+    border-radius: 4px;
+    border:solid 2px white;
+    padding: 3px;
+    text-transform:uppercase;
+    font-size: 14px;
+    position: relative;
+    left: 400px;
+    bottom: 30px;
+    margin: 8px;
+} 
+ul li a{
+    text-decoration: none;
+    letter-spacing: 5px;
+}
+ul li:hover{
+    border-color: aliceblue;
+    background-color: aliceblue;
+    text-decoration: underline;
+}
+ul li a:hover{
+    color: black;
+    font-size: 17px;
+}
+button{
+    float: right; 
+    margin: 10px;
+    border-radius: 5px;
+    padding: 5px;
+    text-transform: uppercase;
+    background-color:rgba(0, 0, 0, .3);
+    color: white;
+    border-color:rgba(0, 0, 0, .3) ;
+    position: relative;
+    bottom: 80px;
+}
+button:hover{
+    background-color:rgba(0, 0, 0, .8);
+    border-color:rgba(0, 0, 0, .8) ;
+    border: solid 2px white;
+}
+
+.pic0{
+    background-image: url(https://images.pexels.com/photos/859895/pexels-photo-859895.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1);
+    height: 600px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.pic1{
+    background-image: url(https://images.pexels.com/photos/1210273/pexels-photo-1210273.jpeg?cs=srgb&dl=pexels-hernan-pauccara-1210273.jpg&fm=jpg);
+    height: 400px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+.pic2{
+    background-image: url(https://images.pexels.com/photos/1209998/pexels-photo-1209998.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1);
+    height: 400px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}   
+.pic3{
+    background-image: url(https://images.pexels.com/photos/3558598/pexels-photo-3558598.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1);
+    height: 400px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover; 
+    background-attachment: fixed;
+}
+.pic4{
+    background-image: url(https://images.pexels.com/photos/462030/pexels-photo-462030.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1);
+    height: 400px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+.pic5{
+    background-image: url(endpic.jpg);
+    height: 500px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+h2{
+    text-transform: uppercase;
+    color: blue;
+    background-color: white;
+    border: solid 2px blue;
+    border-radius: 10px;
+    width: 130px;
+    padding: 2px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 1px 5px 5px 1px rgba(0, 0, 0, .4);
+}
+.light{
+    background-color: white;
+}
+.welcome{
+    text-align: center;
+    color: red;
+    text-transform: uppercase;
+    background-color: white;
+    padding: 50px;
+    border: solid 2px blue;
+    border-radius: 10px;
+    box-shadow: 5px 5px 5px 5px rgba(0, 0, 255, .9);
+}
+.sleezy{
+    color: blue;
+}
+.sleezy::before{
+    content: "@";
+    color: red;
+    font-size: small;
+    font-style: oblique;
+}
+.dark{
+    background-color:rgba(0, 0, 0, .6);
+}
